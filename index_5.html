@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script type="text/javascript" src="note.js"></script>
+	<link rel="styleSheet" href="note.css">
+</head>
+	<body ng-app="myApp">
+	<div ng-controller="Note">
+		<div>Title:<input type="text" ng-model="note.title"></div>
+		<textarea cols=100% rows=5% ng-model="note.text">{{note.text}}></textarea><br />
+		<button ng-click='save()'>Save</button>
+			<p>
+			<div ng-repeat="x in saved" class="show">
+			<post data="x"></post>
+				
+			
+		</div></p>
+	</div>
+	</body>
+</html>
+
+

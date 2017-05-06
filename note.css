@@ -1,0 +1,18 @@
+body{
+	text-align: center; 
+}
+textarea{
+	background-color: pink;
+} 
+.show{
+	background-color: yellow;
+	color:red;
+	width: 30%;
+	height:50%;
+	border: 2px solid black;
+	box-sizing: content-box;
+	float: right;
+	position: relative;
+	display:table-cell;
+	margin:10px 20px 15px 20px;	
+}
